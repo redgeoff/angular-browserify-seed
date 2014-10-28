@@ -39,14 +39,14 @@ Serve Test Coverage:
 
 	grunt serve
 
-then visit `http://localhost:9000/coverage`
+then visit [http://localhost:9000/coverage](http://localhost:9000/coverage)
 
 Serve Examples:
 ---
 
 	grunt serve
 
-then visit `http://localhost:9000`
+then visit [http://localhost:9000](http://localhost:9000)
 
 [Contributing](CONTRIBUTING.md)
 ---
