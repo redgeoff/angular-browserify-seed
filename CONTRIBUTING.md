@@ -6,7 +6,7 @@ Building
 
 	grunt
 
-Publishing
+Publishing to both npm and bower
 ---
 
 	tin -v VERSION
