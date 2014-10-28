@@ -32,6 +32,7 @@ Setup for gh-pages (only do once)
 ---
 
 	git checkout -b gh-pages
+	git push --set-upstream origin gh-pages
 	git push
 
 Setup Travis CI (only do once)
