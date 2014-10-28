@@ -7,6 +7,16 @@
     "url": "git://github.com/redgeoff/angular-browserify-seed.git"
   },
   "author": "Geoffrey Cox",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "browserify",
+    "karma-coverage",
+    "coverage",
+    "karma",
+    "test coverage",
+    "grunt-browserify"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/redgeoff/angular-browserify-seed/issues"
