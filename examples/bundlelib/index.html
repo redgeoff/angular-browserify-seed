@@ -1,0 +1,44 @@
+<!doctype html>
+<html ng-app="hello">
+  <head>
+    <meta charset="utf-8">
+
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.0/angular.min.js"></script>
+
+      <!-- Uncomment for use w/o an Internet connection -->
+      <!-- <script src="../node_modules/angular/angular.js"></script> -->
+
+  </head>
+  <body>
+
+    <div ng-controller="HelloCtrl">
+      <button ng-click="foo()">Foo</button>
+      <button ng-click="bar()">Bar</button>
+      <h1>
+        Hello {{text}}
+      </h1>
+    </div>
+
+    <script src="../dist/foobar.min.js"></script>
+
+    <script>
+      angular.module('hello', ['foobar'])
+
+        .controller('HelloCtrl', ['$scope', 'foo', 'bar', function ($scope, foo, bar) {
+
+          $scope.text = '';
+
+          $scope.foo = function () {
+            foo.get().then(function (data) {
+              $scope.text = data;
+            });
+          };
+
+          $scope.bar = function () {
+            $scope.text = bar.get();
+          };
+
+        }]);
+    </script>
+  </body>
+</html>

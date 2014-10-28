@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="hello">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <div ng-controller="HelloCtrl">
+      <button ng-click="foo()">Foo</button>
+      <button ng-click="bar()">Bar</button>
+      <h1>
+        Hello {{text}}
+      </h1>
+    </div>
+
+    <script src="hello-browserified.js"></script>
+
+  </body>
+</html>
