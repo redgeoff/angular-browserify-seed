@@ -19,7 +19,7 @@ Publishing to both npm and bower
 
 or, you can use: [tin-grunt](https://gist.github.com/redgeoff/9f69b36b186e1714e923), e.g.
 
-	tin-grunt 0.0.1
+	tin-grunt 0.0.2
 
 Updating gh-pages
 ---

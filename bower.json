@@ -1,6 +1,6 @@
 {
   "name": "angular-browserify-seed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A seed project for using browserify with angularjs",
   "main": "dist/foobar.min.js",
   "homepage": "https://github.com/redgeoff/angular-browserify-seed",
