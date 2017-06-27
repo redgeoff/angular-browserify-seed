@@ -1,6 +1,8 @@
 angular-browserify-seed
 ====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/redgeoff/angular-browserify-seed.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/redgeoff/angular-browserify-seed.svg)](https://travis-ci.org/redgeoff/angular-browserify-seed)
 
 A seed project for using browserify with angularjs.
